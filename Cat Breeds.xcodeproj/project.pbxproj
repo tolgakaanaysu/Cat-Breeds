@@ -7,18 +7,45 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7813BFB1281356A7003213BB /* ScreenBounds.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7813BFB0281356A7003213BB /* ScreenBounds.swift */; };
+		7813BFB32815DF7E003213BB /* TestCatObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7813BFB22815DF7E003213BB /* TestCatObject.swift */; };
+		7816C6CC280DF43400FF22BF /* ExtensionPublished.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7816C6CB280DF43400FF22BF /* ExtensionPublished.swift */; };
+		78842DEF280AC55400617E1B /* DetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78842DEE280AC55400617E1B /* DetailsView.swift */; };
+		78842DF1280AC87300617E1B /* MyFavorites.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78842DF0280AC87300617E1B /* MyFavorites.swift */; };
+		78842DF4280ADA1600617E1B /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78842DF3280ADA1600617E1B /* SearchView.swift */; };
+		78842DF6280AE44300617E1B /* ListRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78842DF5280AE44300617E1B /* ListRow.swift */; };
+		78842DFA280B788B00617E1B /* WebService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78842DF9280B788B00617E1B /* WebService.swift */; };
+		78842DFC280B7CFE00617E1B /* CatsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78842DFB280B7CFE00617E1B /* CatsModel.swift */; };
+		78842DFE280B7E9100617E1B /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78842DFD280B7E9100617E1B /* ViewModel.swift */; };
+		789E1F6F284D88EB0006B8CF /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = 789E1F6E284D88EB0006B8CF /* Kingfisher */; };
 		78A73E7D280AA3A100F31A18 /* Cat_BreedsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78A73E7C280AA3A100F31A18 /* Cat_BreedsApp.swift */; };
 		78A73E7F280AA3A100F31A18 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78A73E7E280AA3A100F31A18 /* ContentView.swift */; };
 		78A73E81280AA3A300F31A18 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 78A73E80280AA3A300F31A18 /* Assets.xcassets */; };
 		78A73E84280AA3A300F31A18 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 78A73E83280AA3A300F31A18 /* Preview Assets.xcassets */; };
+		78A73E8B280AB6A700F31A18 /* SplashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78A73E8A280AB6A700F31A18 /* SplashView.swift */; };
+		78A73E8D280AB6F100F31A18 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78A73E8C280AB6F100F31A18 /* HomeView.swift */; };
+		78B31238280BB4F800C5CB3A /* FavoriteButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78B31237280BB4F800C5CB3A /* FavoriteButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7813BFB0281356A7003213BB /* ScreenBounds.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenBounds.swift; sourceTree = "<group>"; };
+		7813BFB22815DF7E003213BB /* TestCatObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestCatObject.swift; sourceTree = "<group>"; };
+		7816C6CB280DF43400FF22BF /* ExtensionPublished.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionPublished.swift; sourceTree = "<group>"; };
+		78842DEE280AC55400617E1B /* DetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsView.swift; sourceTree = "<group>"; };
+		78842DF0280AC87300617E1B /* MyFavorites.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyFavorites.swift; sourceTree = "<group>"; };
+		78842DF3280ADA1600617E1B /* SearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchView.swift; sourceTree = "<group>"; };
+		78842DF5280AE44300617E1B /* ListRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListRow.swift; sourceTree = "<group>"; };
+		78842DF9280B788B00617E1B /* WebService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebService.swift; sourceTree = "<group>"; };
+		78842DFB280B7CFE00617E1B /* CatsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatsModel.swift; sourceTree = "<group>"; };
+		78842DFD280B7E9100617E1B /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
 		78A73E79280AA3A100F31A18 /* Cat Breeds.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Cat Breeds.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		78A73E7C280AA3A100F31A18 /* Cat_BreedsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cat_BreedsApp.swift; sourceTree = "<group>"; };
 		78A73E7E280AA3A100F31A18 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		78A73E80280AA3A300F31A18 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		78A73E83280AA3A300F31A18 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		78A73E8A280AB6A700F31A18 /* SplashView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashView.swift; sourceTree = "<group>"; };
+		78A73E8C280AB6F100F31A18 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		78B31237280BB4F800C5CB3A /* FavoriteButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,12 +53,54 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				789E1F6F284D88EB0006B8CF /* Kingfisher in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7813BFAF28135620003213BB /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				7813BFB0281356A7003213BB /* ScreenBounds.swift */,
+				7816C6CB280DF43400FF22BF /* ExtensionPublished.swift */,
+				7813BFB22815DF7E003213BB /* TestCatObject.swift */,
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
+		78842DED280AC52300617E1B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				78A73E7E280AA3A100F31A18 /* ContentView.swift */,
+				78A73E8A280AB6A700F31A18 /* SplashView.swift */,
+				78A73E8C280AB6F100F31A18 /* HomeView.swift */,
+				78842DF3280ADA1600617E1B /* SearchView.swift */,
+				78842DEE280AC55400617E1B /* DetailsView.swift */,
+				78842DF0280AC87300617E1B /* MyFavorites.swift */,
+				78842DF5280AE44300617E1B /* ListRow.swift */,
+				78B31237280BB4F800C5CB3A /* FavoriteButton.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		78842DF8280B77A300617E1B /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				78842DF9280B788B00617E1B /* WebService.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		78842DFF280B8DD000617E1B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				78842DFB280B7CFE00617E1B /* CatsModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		78A73E70280AA3A100F31A18 = {
 			isa = PBXGroup;
 			children = (
@@ -52,7 +121,11 @@
 			isa = PBXGroup;
 			children = (
 				78A73E7C280AA3A100F31A18 /* Cat_BreedsApp.swift */,
-				78A73E7E280AA3A100F31A18 /* ContentView.swift */,
+				78842DF8280B77A300617E1B /* Service */,
+				78842DFF280B8DD000617E1B /* Model */,
+				78B31239280BBE0A00C5CB3A /* ViewModel */,
+				78842DED280AC52300617E1B /* View */,
+				7813BFAF28135620003213BB /* Utility */,
 				78A73E80280AA3A300F31A18 /* Assets.xcassets */,
 				78A73E82280AA3A300F31A18 /* Preview Content */,
 			);
@@ -65,6 +138,14 @@
 				78A73E83280AA3A300F31A18 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		78B31239280BBE0A00C5CB3A /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				78842DFD280B7E9100617E1B /* ViewModel.swift */,
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +164,9 @@
 			dependencies = (
 			);
 			name = "Cat Breeds";
+			packageProductDependencies = (
+				789E1F6E284D88EB0006B8CF /* Kingfisher */,
+			);
 			productName = "Cat Breeds";
 			productReference = 78A73E79280AA3A100F31A18 /* Cat Breeds.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +195,9 @@
 				Base,
 			);
 			mainGroup = 78A73E70280AA3A100F31A18;
+			packageReferences = (
+				789E1F6D284D88EB0006B8CF /* XCRemoteSwiftPackageReference "Kingfisher" */,
+			);
 			productRefGroup = 78A73E7A280AA3A100F31A18 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -137,8 +224,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				78842DFA280B788B00617E1B /* WebService.swift in Sources */,
 				78A73E7F280AA3A100F31A18 /* ContentView.swift in Sources */,
+				7813BFB32815DF7E003213BB /* TestCatObject.swift in Sources */,
+				78842DEF280AC55400617E1B /* DetailsView.swift in Sources */,
+				7816C6CC280DF43400FF22BF /* ExtensionPublished.swift in Sources */,
+				78B31238280BB4F800C5CB3A /* FavoriteButton.swift in Sources */,
+				78842DFE280B7E9100617E1B /* ViewModel.swift in Sources */,
+				78A73E8D280AB6F100F31A18 /* HomeView.swift in Sources */,
+				78842DF4280ADA1600617E1B /* SearchView.swift in Sources */,
+				78842DF6280AE44300617E1B /* ListRow.swift in Sources */,
+				78842DFC280B7CFE00617E1B /* CatsModel.swift in Sources */,
+				78842DF1280AC87300617E1B /* MyFavorites.swift in Sources */,
 				78A73E7D280AA3A100F31A18 /* Cat_BreedsApp.swift in Sources */,
+				7813BFB1281356A7003213BB /* ScreenBounds.swift in Sources */,
+				78A73E8B280AB6A700F31A18 /* SplashView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -341,6 +441,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		789E1F6D284D88EB0006B8CF /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 7.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		789E1F6E284D88EB0006B8CF /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 789E1F6D284D88EB0006B8CF /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 78A73E71280AA3A100F31A18 /* Project object */;
 }
